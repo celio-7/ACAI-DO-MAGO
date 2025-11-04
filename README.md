@@ -31,8 +31,9 @@ Dessa forma, o site busca representar o conceito da marca, **sem fins comerciais
 
 ---
 
-## 🎨 Link do Protótipo no Figma
+## 🎨 Link do Protótipo no Figma e GitHub Pages
 🔗 [Acessar o protótipo no Figma](https://www.figma.com/design/mIysIL49wwXho2EYkQzbTD/Sem-t%C3%ADtulo?node-id=0-1&t=5DngqvJfxQu1S7IM-1)
+🔗 [Acessar o protótipo no GitHub Pages](https://celio-7.github.io/ACAI-DO-MAGO)
 
 ---
 
