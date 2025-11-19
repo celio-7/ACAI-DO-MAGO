@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contato — Açaí do Mago</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/componentes.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <a href="#conteudo-principal" class="skip-link">Pular para o conteúdo principal</a>
+  <div id="header-container"></div>
+
+  <main id="conteudo-principal" class="page">
+    <section id="contato" class="contact">
+      <div class="container contact-wrap">
+        <div class="contact-left">
+          <h1>Fale com o Mago</h1>
+          <p>Escolha a forma mais mágica de falar com a gente:</p>
+
+          <div class="social">
+            <div class="icon whats" aria-hidden="true">
+              <img class="logo-whats" src="img/fotos_mago_acai/whatsapp.png"
+                   alt="Logo do WhatsApp" width="36" height="36">
+            </div>
+            <a class="btn-lime"
+               href="https://wa.me/5561993724600?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20produtos%20do%20A%C3%A7a%C3%AD%20do%20Mago."
+               target="_blank" rel="noopener">
+              Fale conosco no WhatsApp
+            </a>
+          </div>
+
+          <div class="social">
+            <div class="icon insta" aria-hidden="true">
+              <img class="logo-insta" src="img/fotos_mago_acai/Instagram.png"
+                   alt="Logo do Instagram" width="36" height="36">
+            </div>
+            <a class="btn-lime"
+               href="https://instagram.com/acaiidomago"
+               target="_blank" rel="noopener">
+              Siga @acaiidomago
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-right">
+          <h2>Envie uma mensagem</h2>
+          <form
+            action="https://formspree.io/f/SEU-CODIGO-AQUI"
+            method="POST"
+            class="form-contato"
+            aria-label="Formulário de contato Açaí do Mago">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit" class="btn">
+              Enviar mensagem
+            </button>
+          </form>
+          <p class="form-hint">
+            * O formulário é processado pelo Formspree, sem necessidade de back-end.
+          </p>
+          <img class="logo-big" src="img/fotos_mago_acai/logotipo-removebg-preview.png" alt="Açaí do Mago">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="footer-container"></div>
+  <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo">↑</button>
+
+  
+  <script src="js/componentes.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+/* Ajustes simples de responsividade complementares */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Container com largura máxima para telas maiores */
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+/* Ajustes de layout em telas menores */
+@media (max-width: 768px) {
+  .hero .wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .store .grid,
+  .contact-wrap {
+    flex-direction: column;
+  }
+}
