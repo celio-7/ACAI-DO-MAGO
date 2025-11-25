@@ -15,7 +15,7 @@ body{margin:0;font-family:'Poppins',sans-serif;color:var(--white);background:var
 .container{max-width:var(--maxw);margin:auto;padding:0 24px}
 .container .brand{margin-left: -200px}
 header{background:var(--purple)}
-.nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;}
+.nav{display:flex;justify-content:space-between;align-items:center;padding:16px;}
 .nav a{color:#fff;font-weight:1000;margin-left:20px;text-decoration:none}
 .nav .links{display: flex;gap: 200px;}
 .hero{position:relative;padding:80px 0;overflow:hidden}
