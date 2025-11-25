@@ -67,23 +67,8 @@ https://www.figma.com/design/mIysIL49wwXho2EYkQzbTD/Sem-t%C3%ADtulo?node-id=0-1&
 
 ## 📁 Estrutura de Pastas e Arquivos
 
-ACAI-DO-MAGO/
-├── index.html
-├── contato.html
-├── cardapio.html (se aplicável)
-├── css/
-│ ├── style.css
-│ ├── componentes.css
-│ └── responsive.css
-├── js/
-│ ├── script.js
-│ └── componentes.js
-├── componentes/
-│ ├── header.html
-│ └── footer.html
-├── img/
-│ └── fotos_mago_acai/
-└── README.md
+<img width="242" height="344" alt="image" src="https://github.com/user-attachments/assets/37b3d852-6f8e-41e0-832b-25cf4c1f7c45" />
+
 
 
 ---
@@ -128,19 +113,21 @@ cd ACAI-DO-MAGO
 
 Abra o arquivo index.html em qualquer navegador.
 (Não é necessário servidor local.)
+
+
 🚀 Próximos Passos / Melhorias Futuras
 
-Implementação de um mini e-commerce
+1- Implementação de um mini e-commerce
 
-Área de administrador (em outro semestre)
+2- Área de administrador (em outro semestre)
 
-Integração com APIs (iFood, pagamentos, etc.)
+3- Integração com APIs (iFood, pagamentos, etc.)
 
-Melhorias de acessibilidade (WCAG)
+4- Melhorias de acessibilidade (WCAG)
 
-Versão dark mode
+5- Versão dark mode
 
-Publicação em Vercel
+6- Publicação em Vercel
 
 📄 Projeto acadêmico — 2025 © Açaí Mago
 Desenvolvido por Arthur Vinícius & Célio Dantas.
