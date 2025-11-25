@@ -49,8 +49,15 @@ O site NÃO possui fins comerciais — trata-se apenas de um exercício acadêmi
 🔗 **Protótipo e Wireframe no Figma:**  
 https://www.figma.com/design/mIysIL49wwXho2EYkQzbTD/Sem-t%C3%ADtulo?node-id=0-1&t=5DngqvJfxQu1S7IM-1  
 
-🔗 **GitHub Pages (será adicionado na Parte 3):**  
-*Em breve…*
+# 🌐 **Acesso ao Site (GitHub Pages)**
+
+🔗 **Site publicado:**  
+https://celio-7.github.io/ACAI-DO-MAGO/
+
+📅 **Data de publicação:** 25/11/2025
+
+🖼️ **Print do site publicado:**  
+<img width="1911" height="991" alt="printgitpages" src="https://github.com/user-attachments/assets/683defbe-12d8-47f1-8416-4f1fb1021d01" />
 
 ---
 
@@ -67,7 +74,7 @@ https://www.figma.com/design/mIysIL49wwXho2EYkQzbTD/Sem-t%C3%ADtulo?node-id=0-1&
 
 ## 📁 Estrutura de Pastas e Arquivos
 
-<img width="242" height="344" alt="image" src="https://github.com/user-attachments/assets/37b3d852-6f8e-41e0-832b-25cf4c1f7c45" />
+<img width="242" height="344" alt="estrutura_pasta" src="https://github.com/user-attachments/assets/37b3d852-6f8e-41e0-832b-25cf4c1f7c45" />
 
 
 
