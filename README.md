@@ -107,6 +107,38 @@ https://celio-7.github.io/ACAI-DO-MAGO/
 
 ---
 
+## ⚡ Otimização de Performance
+
+Como parte da Etapa 3 do projeto, foram realizadas diversas melhorias de desempenho para garantir que o site carregasse mais rapidamente, fosse mais leve e eficiente, especialmente em dispositivos móveis.
+
+### 🔍 1. Otimização de Imagens
+- Todas as imagens utilizadas no projeto foram comprimidas utilizando ferramentas como TinyPNG e Squoosh.
+- Grande parte das imagens foi convertida para o formato **WEBP**, garantindo arquivos menores e mantendo alta qualidade visual.
+- As imagens que aparecem abaixo da dobra (fora da primeira visualização) receberam o atributo **`loading="lazy"`**, permitindo carregamento sob demanda e reduzindo o tempo de renderização inicial da página.
+
+### 🎨 2. Minificação de CSS
+- O arquivo principal `style.css` foi minificado e convertido para `style.min.css`.
+- O HTML foi atualizado para carregar apenas o arquivo minificado, reduzindo o tamanho a ser transferido e melhorando o tempo de carregamento.
+- O arquivo CSS original foi mantido na pasta do projeto para facilitar futuras edições.
+
+### ⚙️ 3. Minificação de JavaScript
+- Os scripts JavaScript foram minificados e organizados em versões otimizadas.
+- Todos os arquivos JS foram atualizados no HTML para utilizar as versões minificadas.
+- Assim como no CSS, os arquivos JS originais foram preservados para manutenção e legibilidade.
+
+### 🔧 4. Configuração do `<head>` para SEO e Performance
+- Todas as páginas receberam metadados essenciais para SEO, acessibilidade e compatibilidade:
+  - `meta description` configurada com texto otimizado para mecanismos de busca.
+  - `meta keywords` alinhadas ao tema do projeto.
+  - `meta author` informando os desenvolvedores.
+- O favicon personalizado foi adicionado em `img/favicon.png` e referenciado corretamente no `<head>`.
+- A ordem de carregamento dos estilos foi ajustada para garantir melhor performance.
+
+### 🚀 5. Resultado Final
+As otimizações reduziram o peso total do site, melhoraram o tempo de carregamento no GitHub Pages e garantiram uma navegação mais fluida.  
+O site está leve, responsivo e alinhado às melhores práticas de desenvolvimento front-end.
+
+
 ## 💻 Como Rodar o Projeto Localmente
 
 1. Clone o repositório:
