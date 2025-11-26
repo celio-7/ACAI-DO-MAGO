@@ -138,6 +138,85 @@ Como parte da Etapa 3 do projeto, foram realizadas diversas melhorias de desempe
 As otimizações reduziram o peso total do site, melhoraram o tempo de carregamento no GitHub Pages e garantiram uma navegação mais fluida.  
 O site está leve, responsivo e alinhado às melhores práticas de desenvolvimento front-end.
 
+---
+
+## 🗂️ Testes Realizados
+
+Durante a fase de testes do projeto, foram validadas diferentes combinações de navegadores, dispositivos e resoluções, seguindo as orientações propostas para a atividade. Abaixo estão registradas as evidências, problemas encontrados e limitações identificadas.
+
+---
+
+### 🔍 Navegadores Testados
+Os testes foram realizados nos seguintes navegadores:
+
+- **Google Chrome** (versão mais recente)  
+- **Microsoft Edge**  
+- **Opera**
+
+Todos os navegadores renderizaram corretamente a estrutura geral do site, estilos, imagens e navegação entre seções.
+
+---
+
+### 📱 Dispositivos e Resoluções Testadas
+Foram verificadas as seguintes resoluções e tamanhos de tela:
+
+- 1920×1080 (Desktop Full HD)  
+- 1366×768 (Notebook comum)  
+- 1024×768 (Tablet horizontal)  
+- 768×1024 (Tablet vertical)  
+- 425×900 (Smartphone grande)
+- 390×844 (iPhone 12/13/14)
+- 360×800 (Android médio)
+- **Samsung S24 Ultra** (teste real em dispositivo físico)  
+- Outras resoluções sugeridas pelo guia de testes do projeto
+
+Os prints e resultados completos estão documentados nos relatórios abaixo:
+
+- **Teste de Navegadores:**  
+  https://docs.google.com/document/d/1AjsoAubhHyuOtx19GlMcxFY52QLqs1LgQq9g-GwZoJA/edit?tab=t.0  
+
+- **Teste de Responsividade:**  
+  https://docs.google.com/document/d/1S0RHGIpqG-SByPTUgA-IMLJf-fWx4Msf9yzhEt5Fjfg/edit?tab=t.0  
+
+---
+
+### ⚠️ Problemas Encontrados
+
+Durante os testes, foi identificado um problema específico na **navbar**:
+
+- Em algumas resoluções menores, a navbar **não se adapta corretamente**, causando quebra no layout.  
+- O menu tende a comprimir os itens ou sobrepor o conteúdo da hero section.  
+- Mesmo após ajustes de responsividade, não foi encontrada uma solução totalmente estável para todas as combinações de telas.
+
+---
+
+### 🔧 Como o problema foi tratado
+
+- Foram aplicados *media queries* específicos para reorganizar a navbar em telas menores.  
+- A estrutura foi reformulada para tentar garantir maior flexibilidade.  
+- Apesar das melhorias, a adaptação não se mostrou totalmente consistente em diversos tamanhos de telas, especialmente em celulares muito estreitos.
+
+---
+
+### ❗ Limitações Conhecidas
+
+- A **navbar ainda apresenta limitações** na adaptação para diferentes dispositivos e tamanhos de tela muito pequenos.
+- A responsividade geral do site funciona bem, mas a navbar é o único elemento que não responde perfeitamente a todas as resoluções.
+- Poderá ser implementado futuramente um **menu hamburguer** para maior compatibilidade mobile.
+
+---
+
+### 🗂️ Evidências Visuais
+
+As capturas de tela e registros completos dos testes estão disponíveis nos documentos citados acima, organizados por:
+
+- Navegadores  
+- Resoluções  
+- Dispositivos  
+- Comportamento da interface  
+- Problemas identificados  
+
+
 
 ## 💻 Como Rodar o Projeto Localmente
 
